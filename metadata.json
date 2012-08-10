@@ -1,0 +1,61 @@
+{
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "name": "dotfiles",
+  "maintainer_email": "me@ryangeyer.com",
+  "attributes": {
+    "dotfiles/install_dir": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Dotfiles install dir"
+    },
+    "dotfiles/git_uri": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "git://github.com/rgeyer/dotfiles.git",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Dotfiles Git URI"
+    }
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+    "rhel": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "darwin": ">= 0.0.0"
+  },
+  "maintainer": "Ryan J. Geyer",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "dotfiles::install": "Clones a dotfiles repository and executes the bootstrap.sh file to get it setup"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures dotfiles",
+  "providing": {
+  }
+}
