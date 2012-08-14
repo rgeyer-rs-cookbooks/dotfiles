@@ -38,8 +38,8 @@
     "rhel": ">= 0.0.0",
     "debian": ">= 0.0.0",
     "centos": ">= 0.0.0",
-    "ubuntu": ">= 0.0.0",
-    "darwin": ">= 0.0.0"
+    "max_os_x": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0"
   },
   "maintainer": "Ryan J. Geyer",
   "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",

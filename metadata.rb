@@ -6,7 +6,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version          "0.0.1"
 
 # Not necessarily tested on each of these, but it should be quite universal.
-%w{darwin ubuntu debian centos rhel}.each do |os|
+%w{max_os_x ubuntu debian centos rhel}.each do |os|
   supports os
 end
 
